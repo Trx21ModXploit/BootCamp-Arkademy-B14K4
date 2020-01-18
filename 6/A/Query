@@ -1,0 +1,1 @@
+SELECT name_cashier AS Cashier, name_product AS Product, name_category as Category, price_product AS Price  FROM `tbl_product` JOIN tbl_category ON tbl_product.id_category = tbl_category.id_category JOIN tbl_cashier ON tbl_product.id_cashier = tbl_cashier.id_cashier
